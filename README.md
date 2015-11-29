@@ -1,5 +1,5 @@
 # active_record_json_importer
-####Simple and fast way to bulk import massive active records into database. It uses the awesome activerecord-import gem
+####Simple and fast way to bulk import json massive active records into database. It uses the awesome activerecord-import gem
  - Fast
  - Simple
  - Awesome
