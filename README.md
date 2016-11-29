@@ -16,11 +16,11 @@ or in your Gemfile:
 ##Usage
 
 ```ruby
-import_status = BulkJsonImporter::Importer.new(file: 'input.txt', active_record_class: Person).import
+import_status = ActiveRecordJsonImporter::Importer.new(file: 'input.txt', active_record_class: Person).import
 ```
 If you want to change the default each bulk size (5000), yo simply do
 ```ruby
-import_status = BulkJsonImporter::Importer.new(file: 'input.txt', active_record_class: Person, records_at_once: 2000).import
+import_status = ActiveRecordJsonImporter::Importer.new(file: 'input.txt', active_record_class: Person, records_at_once: 2000).import
 ```
 
 ####Input example
